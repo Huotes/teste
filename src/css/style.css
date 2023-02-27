@@ -1,0 +1,165 @@
+.formulario {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    width: 420px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+.dados-usuario {
+    padding: 10px 5px;
+    border: solid 2px #dcdee0;
+    border-radius: 5px;
+    font-weight: normal;
+    margin: 5px;
+}
+
+.botao-cadastro {
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.botao-cadastro:hover {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.radio {
+    display: inline-block;
+    padding: 5px;
+    border: solid 2px #dcdee0;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 5px;
+}
+
+.radio::marker {
+    background-color: red;
+    color: red;
+}
+
+.select-data-de-nascimento {
+    display: inline-block;
+    padding: 5px;
+    border: solid 2px #dcdee0;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 5px;
+    padding: 0 30px;
+    height: 30px;
+    line-height: 20px;
+}
+
+.descricao-de-area {
+    padding-bottom: 5px;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.fa-xmark {
+    position: absolute;
+    margin-left: 175px;
+    height: 40px;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        margin: auto;
+        width: 386px;
+        height: 490px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+    }
+
+    .radio {
+        display: inline-block;
+        padding: 0 10px;
+        border: solid 2px #dcdee0;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: normal;
+        margin: 0 10px;
+    }
+
+    .dados-usuario {
+        padding: 5px;
+        border: solid 2px #dcdee0;
+        border-radius: 5px;
+        font-weight: normal;
+        margin: 3px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 576px) {
+    .formulario {
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        margin: auto;
+        width: 400px;
+        height: 540px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+    }
+
+    .radio {
+        display: inline;
+        padding: 5px;
+        border: solid 2px #dcdee0;
+        border-radius: 5px;
+        font-size: smaller;
+        margin: 3px;
+    }
+
+    .dados-usuario {
+        padding: 10px 5px;
+        border: solid 2px #dcdee0;
+        border-radius: 5px;
+        font-weight: normal;
+        margin: 5px;
+    }
+
+    .select-data-de-nascimento {
+        display: inline-block;
+        padding: 5px;
+        border: solid 2px #dcdee0;
+        background-color: transparent;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: normal;
+        margin: 0 5px;
+        padding: 0 15px;
+        height: 30px;
+        line-height: 10px;
+    }
+
+    .fa-xmark {
+        position: absolute;
+        right: 10px;
+    }
+}
